@@ -1,0 +1,11 @@
+@import './pages/Login';
+@import './pages/Product';
+@import './components/Table';
+@import './components/Header';
+@import './components/ProductForm';
+@import './components/ContractModal';
+
+body {
+  background-color: rgb(250, 234, 214);
+  margin: 0;
+}

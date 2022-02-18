@@ -1,0 +1,44 @@
+.main {
+  background-color: rgb(255, 244, 230);
+  margin: 10px;
+
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    flex-wrap: wrap;
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+  }
+
+  &__input {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 3px 8px;
+  }
+
+  &__input:disabled {
+    border: 1px solid lightgray;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
