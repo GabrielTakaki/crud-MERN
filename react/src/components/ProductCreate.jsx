@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { URL } from '../api';
 import { PRODUCT_STATE } from '../helpers';
-import ProductForm from '../components/ProductForm';
+import ProductForm from './ProductForm';
 
 function ProductCreate() {
   const [{
